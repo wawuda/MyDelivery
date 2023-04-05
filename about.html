@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us - My Delivery</title>
+<style>
+	/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.container {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+ }
+ .container .box {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+ }
+ .container .box:hover .imgBox {
+    transform: translate(-4.5rem, -4.5rem);
+ }
+ .container .box:hover .content {
+    transform: translate(16.5rem, 16.5rem);
+ }
+ .imgBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+ }
+ .imgBox img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    resize: both;
+ }
+.content h2 {
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
+.content span {
+  font-size: 18px;
+  font-weight: normal;
+  color: #999;
+  display: block;
+  margin-top: 10px;
+}
+
+main section {
+  margin: 20px;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+fieldset {
+    border: 2px solid #441b1b;
+	background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 20px;
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+	<header>
+		<h1>About My Delivery</h1>
+	</header>
+	<fieldset>
+<div class="container">
+    <div class="box">
+        <div class="imgBox">
+            <img
+            src="download.jpg"
+            alt="banner"
+            />
+        </div>
+        <div class="content">
+            <h2>
+                Frankie Bolder<br />
+                <span>Founder and CEO</span>
+            </h2>
+        </div>
+    </div>
+</div>
+	<main>
+		<section>
+			<h2>All About My delivery</h2>
+			<p>Professionalism. Excellence. Timeliness <br>Fast, efficient and honest.My delivery has become a reputable and well-known delivery service.Our team is up for every job, managing projects with the skills and experience our clients have come to expect.We want our customers to be satisfied with our work, which is why we provide open communication channels throughout the duration of each project. </p>
+		</section>
+
+		<section>
+			<h2>Testimonials</h2>
+			<p> This is your testimonial quote.Use this space to share reviews about you,your services and your business.Get site visitors excited to work with you!</p>
+		</section>
+
+	</main>
+</fieldset>
+
+	<footer>
+		<p>&copy; 2023 My Delivery. All rights reserved.</p>
+	</footer>
+</body>
+</html>
